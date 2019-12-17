@@ -7,23 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9D2D854523A68F8200DC527C /* uiInteract.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D2D853523A68F8100DC527C /* uiInteract.cpp */; };
-		9D2D854623A68F8200DC527C /* game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D2D853623A68F8200DC527C /* game.cpp */; };
-		9D2D854723A68F8200DC527C /* uiTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D2D853823A68F8200DC527C /* uiTest.cpp */; };
-		9D2D854823A68F8200DC527C /* point.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D2D853923A68F8200DC527C /* point.cpp */; };
-		9D2D854923A68F8200DC527C /* lander.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D2D853C23A68F8200DC527C /* lander.cpp */; };
-		9D2D854A23A68F8200DC527C /* ground.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D2D853D23A68F8200DC527C /* ground.cpp */; };
-		9D2D854B23A68F8200DC527C /* uiDraw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D2D853F23A68F8200DC527C /* uiDraw.cpp */; };
-		9D2D854C23A68F8200DC527C /* driver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D2D854223A68F8200DC527C /* driver.cpp */; };
-		9D2D854D23A68F8200DC527C /* velocity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D2D854323A68F8200DC527C /* velocity.cpp */; };
-		9D2D855023A68F8E00DC527C /* AGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D2D854F23A68F8E00DC527C /* AGL.framework */; };
-		9D2D855223A68F9600DC527C /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D2D855123A68F9600DC527C /* GLUT.framework */; };
-		9D2D855323A68FC300DC527C /* AGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D2D854F23A68F8E00DC527C /* AGL.framework */; };
-		9D2D855723A6900D00DC527C /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D2D855623A6900D00DC527C /* OpenGL.framework */; };
+		9DA18F6F23A804800070E86E /* uiDraw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DA18F5F23A8047F0070E86E /* uiDraw.cpp */; };
+		9DA18F7123A804800070E86E /* uiInteract.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DA18F6123A8047F0070E86E /* uiInteract.cpp */; };
+		9DA18F7223A804800070E86E /* driver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DA18F6523A8047F0070E86E /* driver.cpp */; };
+		9DA18F7323A804800070E86E /* game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DA18F6823A8047F0070E86E /* game.cpp */; };
+		9DA18F7423A804800070E86E /* lander.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DA18F6A23A8047F0070E86E /* lander.cpp */; };
+		9DA18F7523A804800070E86E /* point.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DA18F6B23A8047F0070E86E /* point.cpp */; };
+		9DA18F7623A804800070E86E /* velocity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DA18F6D23A804800070E86E /* velocity.cpp */; };
+		9DA18F7723A804800070E86E /* ground.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DA18F6E23A804800070E86E /* ground.cpp */; };
+		9DA18F7A23A804970070E86E /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DA18F7923A804970070E86E /* GLUT.framework */; };
+		9DA18F7C23A8049F0070E86E /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DA18F7B23A8049F0070E86E /* OpenGL.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		9D2D852923A68F6300DC527C /* CopyFiles */ = {
+		9DA18F5223A803750070E86E /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -35,91 +32,83 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		9D2D852B23A68F6300DC527C /* MoonLander */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MoonLander; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D2D853523A68F8100DC527C /* uiInteract.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = uiInteract.cpp; path = "../../../../Documents/C++/CS165/projects/MoonLander/MoonLander/uiInteract.cpp"; sourceTree = "<group>"; };
-		9D2D853623A68F8200DC527C /* game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = game.cpp; path = "../../../../Documents/C++/CS165/projects/MoonLander/MoonLander/game.cpp"; sourceTree = "<group>"; };
-		9D2D853723A68F8200DC527C /* point.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = point.h; path = "../../../../Documents/C++/CS165/projects/MoonLander/MoonLander/point.h"; sourceTree = "<group>"; };
-		9D2D853823A68F8200DC527C /* uiTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = uiTest.cpp; path = "../../../../Documents/C++/CS165/projects/MoonLander/MoonLander/uiTest.cpp"; sourceTree = "<group>"; };
-		9D2D853923A68F8200DC527C /* point.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = point.cpp; path = "../../../../Documents/C++/CS165/projects/MoonLander/MoonLander/point.cpp"; sourceTree = "<group>"; };
-		9D2D853A23A68F8200DC527C /* velocity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = velocity.h; path = "../../../../Documents/C++/CS165/projects/MoonLander/MoonLander/velocity.h"; sourceTree = "<group>"; };
-		9D2D853B23A68F8200DC527C /* game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = game.h; path = "../../../../Documents/C++/CS165/projects/MoonLander/MoonLander/game.h"; sourceTree = "<group>"; };
-		9D2D853C23A68F8200DC527C /* lander.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = lander.cpp; path = "../../../../Documents/C++/CS165/projects/MoonLander/MoonLander/lander.cpp"; sourceTree = "<group>"; };
-		9D2D853D23A68F8200DC527C /* ground.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ground.cpp; path = "../../../../Documents/C++/CS165/projects/MoonLander/MoonLander/ground.cpp"; sourceTree = "<group>"; };
-		9D2D853E23A68F8200DC527C /* lander.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = lander.h; path = "../../../../Documents/C++/CS165/projects/MoonLander/MoonLander/lander.h"; sourceTree = "<group>"; };
-		9D2D853F23A68F8200DC527C /* uiDraw.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = uiDraw.cpp; path = "../../../../Documents/C++/CS165/projects/MoonLander/MoonLander/uiDraw.cpp"; sourceTree = "<group>"; };
-		9D2D854023A68F8200DC527C /* ground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ground.h; path = "../../../../Documents/C++/CS165/projects/MoonLander/MoonLander/ground.h"; sourceTree = "<group>"; };
-		9D2D854123A68F8200DC527C /* uiDraw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = uiDraw.h; path = "../../../../Documents/C++/CS165/projects/MoonLander/MoonLander/uiDraw.h"; sourceTree = "<group>"; };
-		9D2D854223A68F8200DC527C /* driver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = driver.cpp; path = "../../../../Documents/C++/CS165/projects/MoonLander/MoonLander/driver.cpp"; sourceTree = "<group>"; };
-		9D2D854323A68F8200DC527C /* velocity.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = velocity.cpp; path = "../../../../Documents/C++/CS165/projects/MoonLander/MoonLander/velocity.cpp"; sourceTree = "<group>"; };
-		9D2D854423A68F8200DC527C /* uiInteract.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = uiInteract.h; path = "../../../../Documents/C++/CS165/projects/MoonLander/MoonLander/uiInteract.h"; sourceTree = "<group>"; };
-		9D2D854F23A68F8E00DC527C /* AGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AGL.framework; path = System/Library/Frameworks/AGL.framework; sourceTree = SDKROOT; };
-		9D2D855123A68F9600DC527C /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
-		9D2D855423A68FE300DC527C /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
-		9D2D855623A6900D00DC527C /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		9DA18F5423A803750070E86E /* MoonLander */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MoonLander; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DA18F5F23A8047F0070E86E /* uiDraw.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = uiDraw.cpp; sourceTree = "<group>"; };
+		9DA18F6123A8047F0070E86E /* uiInteract.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = uiInteract.cpp; sourceTree = "<group>"; };
+		9DA18F6223A8047F0070E86E /* game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = game.h; sourceTree = "<group>"; };
+		9DA18F6323A8047F0070E86E /* uiDraw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uiDraw.h; sourceTree = "<group>"; };
+		9DA18F6423A8047F0070E86E /* ground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ground.h; sourceTree = "<group>"; };
+		9DA18F6523A8047F0070E86E /* driver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = driver.cpp; sourceTree = "<group>"; };
+		9DA18F6623A8047F0070E86E /* velocity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = velocity.h; sourceTree = "<group>"; };
+		9DA18F6723A8047F0070E86E /* lander.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lander.h; sourceTree = "<group>"; };
+		9DA18F6823A8047F0070E86E /* game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = game.cpp; sourceTree = "<group>"; };
+		9DA18F6923A8047F0070E86E /* point.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = point.h; sourceTree = "<group>"; };
+		9DA18F6A23A8047F0070E86E /* lander.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lander.cpp; sourceTree = "<group>"; };
+		9DA18F6B23A8047F0070E86E /* point.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = point.cpp; sourceTree = "<group>"; };
+		9DA18F6C23A804800070E86E /* uiInteract.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uiInteract.h; sourceTree = "<group>"; };
+		9DA18F6D23A804800070E86E /* velocity.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = velocity.cpp; sourceTree = "<group>"; };
+		9DA18F6E23A804800070E86E /* ground.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ground.cpp; sourceTree = "<group>"; };
+		9DA18F7923A804970070E86E /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		9DA18F7B23A8049F0070E86E /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9D2D852823A68F6300DC527C /* Frameworks */ = {
+		9DA18F5123A803750070E86E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D2D855223A68F9600DC527C /* GLUT.framework in Frameworks */,
-				9D2D855023A68F8E00DC527C /* AGL.framework in Frameworks */,
-				9D2D855723A6900D00DC527C /* OpenGL.framework in Frameworks */,
-				9D2D855323A68FC300DC527C /* AGL.framework in Frameworks */,
+				9DA18F7C23A8049F0070E86E /* OpenGL.framework in Frameworks */,
+				9DA18F7A23A804970070E86E /* GLUT.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9D2D852223A68F6300DC527C = {
+		9DA18F4B23A803750070E86E = {
 			isa = PBXGroup;
 			children = (
-				9D2D852D23A68F6300DC527C /* MoonLander */,
-				9D2D852C23A68F6300DC527C /* Products */,
-				9D2D854E23A68F8E00DC527C /* Frameworks */,
+				9DA18F5623A803750070E86E /* MoonLander */,
+				9DA18F5523A803750070E86E /* Products */,
+				9DA18F7823A804970070E86E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		9D2D852C23A68F6300DC527C /* Products */ = {
+		9DA18F5523A803750070E86E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9D2D852B23A68F6300DC527C /* MoonLander */,
+				9DA18F5423A803750070E86E /* MoonLander */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9D2D852D23A68F6300DC527C /* MoonLander */ = {
+		9DA18F5623A803750070E86E /* MoonLander */ = {
 			isa = PBXGroup;
 			children = (
-				9D2D854223A68F8200DC527C /* driver.cpp */,
-				9D2D853623A68F8200DC527C /* game.cpp */,
-				9D2D853B23A68F8200DC527C /* game.h */,
-				9D2D853D23A68F8200DC527C /* ground.cpp */,
-				9D2D854023A68F8200DC527C /* ground.h */,
-				9D2D853C23A68F8200DC527C /* lander.cpp */,
-				9D2D853E23A68F8200DC527C /* lander.h */,
-				9D2D853923A68F8200DC527C /* point.cpp */,
-				9D2D853723A68F8200DC527C /* point.h */,
-				9D2D853F23A68F8200DC527C /* uiDraw.cpp */,
-				9D2D854123A68F8200DC527C /* uiDraw.h */,
-				9D2D853523A68F8100DC527C /* uiInteract.cpp */,
-				9D2D854423A68F8200DC527C /* uiInteract.h */,
-				9D2D853823A68F8200DC527C /* uiTest.cpp */,
-				9D2D854323A68F8200DC527C /* velocity.cpp */,
-				9D2D853A23A68F8200DC527C /* velocity.h */,
+				9DA18F6523A8047F0070E86E /* driver.cpp */,
+				9DA18F6823A8047F0070E86E /* game.cpp */,
+				9DA18F6223A8047F0070E86E /* game.h */,
+				9DA18F6E23A804800070E86E /* ground.cpp */,
+				9DA18F6423A8047F0070E86E /* ground.h */,
+				9DA18F6A23A8047F0070E86E /* lander.cpp */,
+				9DA18F6723A8047F0070E86E /* lander.h */,
+				9DA18F6B23A8047F0070E86E /* point.cpp */,
+				9DA18F6923A8047F0070E86E /* point.h */,
+				9DA18F5F23A8047F0070E86E /* uiDraw.cpp */,
+				9DA18F6323A8047F0070E86E /* uiDraw.h */,
+				9DA18F6123A8047F0070E86E /* uiInteract.cpp */,
+				9DA18F6C23A804800070E86E /* uiInteract.h */,
+				9DA18F6D23A804800070E86E /* velocity.cpp */,
+				9DA18F6623A8047F0070E86E /* velocity.h */,
 			);
 			path = MoonLander;
 			sourceTree = "<group>";
 		};
-		9D2D854E23A68F8E00DC527C /* Frameworks */ = {
+		9DA18F7823A804970070E86E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9D2D855623A6900D00DC527C /* OpenGL.framework */,
-				9D2D855423A68FE300DC527C /* GLKit.framework */,
-				9D2D855123A68F9600DC527C /* GLUT.framework */,
-				9D2D854F23A68F8E00DC527C /* AGL.framework */,
+				9DA18F7B23A8049F0070E86E /* OpenGL.framework */,
+				9DA18F7923A804970070E86E /* GLUT.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -127,13 +116,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9D2D852A23A68F6300DC527C /* MoonLander */ = {
+		9DA18F5323A803750070E86E /* MoonLander */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9D2D853223A68F6300DC527C /* Build configuration list for PBXNativeTarget "MoonLander" */;
+			buildConfigurationList = 9DA18F5B23A803750070E86E /* Build configuration list for PBXNativeTarget "MoonLander" */;
 			buildPhases = (
-				9D2D852723A68F6300DC527C /* Sources */,
-				9D2D852823A68F6300DC527C /* Frameworks */,
-				9D2D852923A68F6300DC527C /* CopyFiles */,
+				9DA18F5023A803750070E86E /* Sources */,
+				9DA18F5123A803750070E86E /* Frameworks */,
+				9DA18F5223A803750070E86E /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -141,24 +130,24 @@
 			);
 			name = MoonLander;
 			productName = MoonLander;
-			productReference = 9D2D852B23A68F6300DC527C /* MoonLander */;
+			productReference = 9DA18F5423A803750070E86E /* MoonLander */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9D2D852323A68F6300DC527C /* Project object */ = {
+		9DA18F4C23A803750070E86E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Leonardo Coelho";
 				TargetAttributes = {
-					9D2D852A23A68F6300DC527C = {
+					9DA18F5323A803750070E86E = {
 						CreatedOnToolsVersion = 11.3;
 					};
 				};
 			};
-			buildConfigurationList = 9D2D852623A68F6300DC527C /* Build configuration list for PBXProject "MoonLander" */;
+			buildConfigurationList = 9DA18F4F23A803750070E86E /* Build configuration list for PBXProject "MoonLander" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -166,37 +155,36 @@
 				en,
 				Base,
 			);
-			mainGroup = 9D2D852223A68F6300DC527C;
-			productRefGroup = 9D2D852C23A68F6300DC527C /* Products */;
+			mainGroup = 9DA18F4B23A803750070E86E;
+			productRefGroup = 9DA18F5523A803750070E86E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9D2D852A23A68F6300DC527C /* MoonLander */,
+				9DA18F5323A803750070E86E /* MoonLander */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9D2D852723A68F6300DC527C /* Sources */ = {
+		9DA18F5023A803750070E86E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D2D854A23A68F8200DC527C /* ground.cpp in Sources */,
-				9D2D854823A68F8200DC527C /* point.cpp in Sources */,
-				9D2D854B23A68F8200DC527C /* uiDraw.cpp in Sources */,
-				9D2D854923A68F8200DC527C /* lander.cpp in Sources */,
-				9D2D854523A68F8200DC527C /* uiInteract.cpp in Sources */,
-				9D2D854723A68F8200DC527C /* uiTest.cpp in Sources */,
-				9D2D854623A68F8200DC527C /* game.cpp in Sources */,
-				9D2D854D23A68F8200DC527C /* velocity.cpp in Sources */,
-				9D2D854C23A68F8200DC527C /* driver.cpp in Sources */,
+				9DA18F7723A804800070E86E /* ground.cpp in Sources */,
+				9DA18F6F23A804800070E86E /* uiDraw.cpp in Sources */,
+				9DA18F7423A804800070E86E /* lander.cpp in Sources */,
+				9DA18F7523A804800070E86E /* point.cpp in Sources */,
+				9DA18F7623A804800070E86E /* velocity.cpp in Sources */,
+				9DA18F7123A804800070E86E /* uiInteract.cpp in Sources */,
+				9DA18F7323A804800070E86E /* game.cpp in Sources */,
+				9DA18F7223A804800070E86E /* driver.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		9D2D853023A68F6300DC527C /* Debug */ = {
+		9DA18F5923A803750070E86E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -254,7 +242,7 @@
 			};
 			name = Debug;
 		};
-		9D2D853123A68F6300DC527C /* Release */ = {
+		9DA18F5A23A803750070E86E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -305,7 +293,7 @@
 			};
 			name = Release;
 		};
-		9D2D853323A68F6300DC527C /* Debug */ = {
+		9DA18F5C23A803750070E86E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -313,7 +301,7 @@
 			};
 			name = Debug;
 		};
-		9D2D853423A68F6300DC527C /* Release */ = {
+		9DA18F5D23A803750070E86E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -324,25 +312,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9D2D852623A68F6300DC527C /* Build configuration list for PBXProject "MoonLander" */ = {
+		9DA18F4F23A803750070E86E /* Build configuration list for PBXProject "MoonLander" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9D2D853023A68F6300DC527C /* Debug */,
-				9D2D853123A68F6300DC527C /* Release */,
+				9DA18F5923A803750070E86E /* Debug */,
+				9DA18F5A23A803750070E86E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9D2D853223A68F6300DC527C /* Build configuration list for PBXNativeTarget "MoonLander" */ = {
+		9DA18F5B23A803750070E86E /* Build configuration list for PBXNativeTarget "MoonLander" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9D2D853323A68F6300DC527C /* Debug */,
-				9D2D853423A68F6300DC527C /* Release */,
+				9DA18F5C23A803750070E86E /* Debug */,
+				9DA18F5D23A803750070E86E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 9D2D852323A68F6300DC527C /* Project object */;
+	rootObject = 9DA18F4C23A803750070E86E /* Project object */;
 }
